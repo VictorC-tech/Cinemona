@@ -1,6 +1,11 @@
+import Navbar from "./Navbar";
 function Header() {
     return (  
-        <h1>Header</h1>
+        <header>
+            <span>Ola, visitante</span>
+            <h1>bem-vindo ao Cinemona+</h1>
+            <Navbar/>
+        </header>
     );
 }
 
