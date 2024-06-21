@@ -3,7 +3,7 @@ import Navbar from "../Navbar/Navbar";
 function Header() {
     return ( 
         <header className="flex justify-around text-white p-5 mb-3 bg-red-700">
-            <h1>Cinemona+</h1>
+            <h1 className="text-2xl">Cinemona+</h1>
             <Navbar/>
         </header>
      );

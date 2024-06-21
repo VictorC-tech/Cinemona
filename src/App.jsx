@@ -1,5 +1,6 @@
 import {Outlet} from "react-router-dom"
 import Header from "./componentes/Header/Header"
+import Footer from "./componentes/Footer/Footer"
 function App() {
 
   return (
@@ -7,6 +8,7 @@ function App() {
     <main className="container mx-auto">
      <Header/>
      <Outlet/>
+     <Footer/>
      </main>
 
   )
